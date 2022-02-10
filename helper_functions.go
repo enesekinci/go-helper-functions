@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func dateConvert(date time.Time, format string) string {
+func DateConvert(date time.Time, format string) string {
 
 	day := strconv.Itoa(date.Day())
 	if len(day) == 1 {
